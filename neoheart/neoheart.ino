@@ -25,26 +25,28 @@ void loop() {
       delay (20);
       
    int x = 3;
-   for (int ii = 1 ; ii <252 ; ii = ii = ii+ x){
+   for (int ii = 1 ; ii <252 ; ii = ii = ii + x){
      strip.setBrightness(ii);
      strip.show();              
      delay(5);
-     
     }
+    
     x = 3;
-   for (int ii = 252 ; ii > 3 ; ii = ii -x){
+   for (int ii = 252 ; ii > 3 ; ii = ii - x){
      strip.setBrightness(ii);
      strip.show();              
-     delay(3);}
+     delay(3);
+     }
    delay(10);
    
    x = 6;
-  for (int ii = 1 ; ii <249 ; ii = ii = ii+ x){
+  for (int ii = 1 ; ii <255 ; ii = ii = ii + x){
      strip.setBrightness(ii);
      strip.show();              
-     delay(2);  }
+     delay(2);  
+     }
    x = 6;
-   for (int ii = 249 ; ii > 6 ; ii = ii -x){
+   for (int ii = 255 ; ii > 1 ; ii = ii - x){
      strip.setBrightness(ii);
      strip.show();              
      delay(3);
